@@ -201,5 +201,5 @@ KYC will increase completion rate by 10%+.
 """)
 
 st.divider()
-st.caption("Built by Sunidhi Choudhary | M.Tech CS, IIIT Guwahati | Product Analyst Project")
+st.caption("Built by Sunidhi Choudhary | M.Tech CS, IIIT Guwahati")
 
