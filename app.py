@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 st.markdown("""
-    <style>
+    <style>s
     .block-container {
         padding-top: 1.5rem;
         padding-left: 2rem;
@@ -198,5 +198,5 @@ KYC will increase completion rate by 10%+.
 """)
 
 st.divider()
-st.caption("Built by Sunidhi Choudhary | M.Tech CS, IIIT Guwahati")
+st.caption("Built by Sunidhi Choudhary")
 
