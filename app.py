@@ -27,11 +27,9 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
-    conn = sqlite3.connect('fampay.db')
-    users = pd.read_sql('SELECT * FROM users', conn)
-    txns  = pd.read_sql('SELECT * FROM transactions', conn)
-    funnel = pd.read_sql('SELECT * FROM funnel_events', conn)
-    conn.close()
+    users  = pd.read_csv('users.csv')
+    txns   = pd.read_csv('transactions.csv')
+    funnel = pd.read_csv('funnel_events.csv')
     users['signup_date'] = pd.to_datetime(users['signup_date'])
     txns['txn_date']     = pd.to_datetime(txns['txn_date'])
     return users, txns, funnel
