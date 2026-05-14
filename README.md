@@ -1,4 +1,4 @@
-# 💳 FamPay User Behavior & Payment Funnel Analysis
+# 💳 FamPay User Behaviour & Payment Funnel Analysis
 
 A product analytics project simulating data analysis for a youth-focused 
 UPI payments platform (inspired by FamPay/Fam).
