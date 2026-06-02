@@ -4,8 +4,31 @@ A product analytics project simulating data analysis for a youth-focused
 UPI payments platform (inspired by FamPay/Fam).
 
 ## 🔗 Live Dashboard
-👉 [Click here to view live dashboard](https://fampay-analytics.streamlit.app)
+### [Click here to view live dashboard](https://fampay-analytics.streamlit.app)
+---
+## Business Problem
 
+A youth-focused fintech platform wants to understand:
+
+- Where users drop off during onboarding
+- Which users activate cards most frequently
+- How retention varies across cohorts
+- Which payment methods drive engagement
+
+The goal is to identify growth opportunities and improve user activation and retention using product analytics.
+
+## Business Impact
+
+- Identified 34.6% onboarding drop-off
+- Found Tier 3 users activate cards most frequently
+- Analyzed 39,000+ transactions
+- Designed an A/B test expected to improve activation by 10%+
+
+### Dataset Scale
+- 5,000 Users
+- 39,433 Transactions
+- 18,000+ Funnel Events
+- 4 City Tiers
 ---
 
 ## 📌 Project Overview
@@ -54,32 +77,27 @@ fampay-analysis/
 Tracks users from app download → first transaction.
 Identifies KYC and Card Activation as biggest drop-off stages.
 
-![Funnel](query1_funnel.png)
+![Funnel](query1_funnel..png)
 
 ### 2. City Tier Activation
 Compares card activation rates across Tier 1, 2, 3 cities.
 
-![City Tier](query2_city_tier.png)
+![City Tier](query2_city_tier..png)
 
 ### 3. Cohort Retention (D1/D7/D30)
 Measures how many users return after 1, 7, and 30 days.
 
-![Cohort](query3_cohort.png)
+![Cohort](query3_cohort..png)
 
 ### 4. Payment Method Analysis
 Breaks down UPI vs FamCard vs QR usage and failure rates.
 
-![Payment](query4_payment.png)
+![Payment](query4_payment..png)
 
 ### 5. Age Group Spending
 Shows which categories different age groups (13-25) spend on.
 
-![Age Groups](query5.1_categories.png)
-
-### 6. High Value Users
-Identifies top spending users for targeting and retention.
-
-![High Value](query6.1_high_value.png)
+![Age Groups](query5.1_categories..png)
 
 ---
 
@@ -97,6 +115,26 @@ completion by 10%+
 | Duration | 14 days | 14 days |
 | Metric | KYC completion rate | KYC completion rate |
 | Significance | p < 0.05 | p < 0.05 |
+
+## 🎯 Product Recommendations
+
+### Recommendation 1
+Offer ₹50 cashback after card activation.
+
+Expected Impact:
+- Increase first transaction conversion by 8–12%
+
+### Recommendation 2
+Add onboarding progress indicator.
+
+Expected Impact:
+- Improve KYC completion rate
+
+### Recommendation 3
+Send personalized reminders to inactive users.
+
+Expected Impact:
+- Improve D30 retention
 
 ---
 
@@ -125,5 +163,3 @@ streamlit run app.py
 
 ## 👤 Author
 **Sunidhi Choudhary**  
-[LinkedIn](https://linkedin.com/in/sunidhi05) | 
-[GitHub](https://github.com/sunidhi009)
